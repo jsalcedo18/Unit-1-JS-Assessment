@@ -19,7 +19,7 @@ function getName(character) {
   return character.name
 }
 
-/**
+/********************************************************************************************************************************
  * ### Challenge `getFilmCount`
  * MVP Challenge 🤓
  * 
@@ -30,8 +30,11 @@ function getName(character) {
  */
 function getFilmCount(character) {
   // TODO: Add your code inside the functions (others below).
-
+  for(let i = 0; i < character.length; i++)
+  return character.length;
 }
+
+console.log(getFilmCount("films".length));
 
 /**
  * ### Challenge `getSecondStarshipName`
@@ -101,7 +104,7 @@ function getNthFilm(character, filmNumber) {
   // TODO: Add your code here.
 }
 
-/**
+/**************************************************************************************************************************
  * ### Challenge `getCargoCapacityTotal`
  * Stretch Goal 💪
  * 
